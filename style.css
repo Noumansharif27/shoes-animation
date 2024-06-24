@@ -14,4 +14,93 @@ body {
   height: 100%;
   width: 100%;
   background-color: #dadada;
+  display: flex;
+}
+
+#left {
+  height: 100%;
+  width: 35%;
+  background-color: rgb(200, 70, 70);
+  position: relative;
+  color: #fff;
+}
+
+#right {
+  height: 100%;
+  width: 65%;
+  background-color: white;
+  position: relative;
+}
+
+#right img {
+  height: 50%;
+  width: 60%;
+  object-fit: contain;
+  object-position: center;
+  position: absolute;
+  left: 5%;
+  top: 45%;
+  transform: translate(-50%, -50%) rotate(-30deg);
+}
+
+#left #text-div {
+  padding-top: 5rem;
+  padding-left: 2rem;
+}
+
+#left #text-div h1 {
+  font-size: 3.75rem;
+  font-weight: 900;
+  line-height: 1;
+}
+
+#text-div h1 span {
+  font-weight: 100;
+}
+
+#text-div h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+  font-weight: 100;
+  margin-top: 10px;
+}
+
+#text-div p {
+  width: 80%;
+  margin-bottom: 1rem;
+  line-height: 1.3;
+}
+
+#text-div button {
+  height: 3rem;
+  width: 10rem;
+  border-radius: 5px;
+  background-color: white;
+  font-weight: 500;
+  border: 1px solid transparent;
+  /* box-shadow: 2px 0 10px black; */
+}
+
+#left #floating-div {
+  height: 100px;
+  width: 85%;
+  position: absolute;
+  bottom: 2%;
+  /* left: 5%; */
+  background-color: #fff;
+  color: #000;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+#floating-div h3 {
+  line-height: 1;
+  padding-bottom: 10px;
+  color: rgb(200, 70, 70);
+  font-weight: 400;
+}
+
+#floating-div p {
+  font-size: 13px;
+  width: 80%;
 }
