@@ -8,13 +8,15 @@ html,
 body {
   height: 100%;
   width: 100%;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #main {
   height: 100%;
   width: 100%;
-  background-color: #dadada;
+  /* background-color: #dadada; */
   display: flex;
+  overflow: hidden;
 }
 
 #left {
@@ -30,6 +32,7 @@ body {
   width: 65%;
   background-color: white;
   position: relative;
+  /* background-color: pink; */
 }
 
 #right > img {
@@ -44,7 +47,7 @@ body {
 }
 
 #left #text-div {
-  padding-top: 5rem;
+  padding-top: 10rem;
   padding-left: 2rem;
 }
 
@@ -106,9 +109,12 @@ body {
 }
 
 #right #details {
-  margin-top: 150px;
-  margin-left: 250px;
-  width: 60%;
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  /* margin-top: 150px;
+  margin-left: 250px; */
+  width: 80%;
 }
 
 #right #details h1 {
@@ -137,11 +143,12 @@ body {
   line-height: 1.5;
   font-weight: 500;
   margin-bottom: 10px;
+  width: 80%;
 }
 
 #details #btn-1 {
   height: 3rem;
-  width: 10rem;
+  width: 13rem;
   border-radius: 10px;
   background-color: #fff;
   color: rgb(239, 33, 33);
@@ -174,7 +181,13 @@ body {
   margin-bottom: 15px;
 }
 
-#details img {
+#details #sample-images {
+  display: flex;
+  gap: 15px;
+  /* background-color: green; */
+}
+
+#details #sample-images img {
   height: 80px;
   width: 80px;
   object-fit: cover;

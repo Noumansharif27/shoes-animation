@@ -10,16 +10,16 @@
     <div id="main">
       <div id="left">
         <div id="text-div">
-          <h1><span>Nike</span> AirPerfomax</h1>
-          <h2>XZ Series</h2>
-          <p>
+          <h1 class="text"><span>Nike</span> AirPerfomax</h1>
+          <h2 class="text">XZ Series</h2>
+          <p class="text">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius in,
             illo repudiandae amet ex ratione ullam tempora? Adipisci numquam
             eius soluta inventore nostrum veniam voluptatibus?
           </p>
-          <button>Check out the product</button>
+          <button class="text">Check out the product</button>
         </div>
-        <div id="floating-div">
+        <div class="text" id="floating-div">
           <h3>Lorem ipsum dolor sit amet.</h3>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis,
@@ -29,26 +29,38 @@
       </div>
 
       <div id="right">
-        <img src="./assets/shoe_img_1.png" alt="shoe_img_1" />
+        <img class="shoe-img" src="./assets/shoe_img_1.png" alt="shoe_img_1" />
         <div id="details">
-          <h1><span>Nike</span> AirPerfomax.</h1>
-          <h4>Exclusively build for <span>Pakistan.</span></h4>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-            odio nihil vero dolores corporis consequuntur ea, quibusdam aliquid
-            tempore ipsum vel deserunt harum voluptate error.
+          <h1 class="text"><span>Nike</span> AirPerfomax.</h1>
+          <h4 class="text">Exclusively build for <span>Pakistan.</span></h4>
+          <p class="text">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+            illum culpa tenetur provident suscipit esse unde, obcaecati,
+            perferendis et nostrum quia aliquam doloremque!
           </p>
-          <button id="btn-1">See 360deg Model</button>
-          <button id="btn-2">Add to Card</button>
+          <div class="text" id="btns">
+            <button id="btn-1">check out the 360deg Model</button>
+            <button id="btn-2">Add to Card</button>
+          </div>
 
-          <h3>Sample Images</h3>
-          <img src="./assets/sample-shoe-img.png" alt="sample-shoe-img" />
-          <img src="./assets/sample-shoe-img.png" alt="sample-shoe-img" />
-          <img src="./assets/sample-shoe-img.png" alt="sample-shoe-img" />
+          <div id="sample-div">
+            <h3>Sample Images</h3>
+            <div id="sample-images">
+              <img src="./assets/sample-shoe-img.png" alt="sample-shoe-img" />
+              <img src="./assets/sample-shoe-img.png" alt="sample-shoe-img" />
+              <img src="./assets/sample-shoe-img.png" alt="sample-shoe-img" />
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
