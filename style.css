@@ -42,7 +42,7 @@ body {
   object-position: center;
   position: absolute;
   left: -5%;
-  top: 45%;
+  top: 25%;
   transform: translate(-50%, -50%) rotate(-30deg);
 }
 
